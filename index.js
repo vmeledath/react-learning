@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import './style.css';
-import Hello from './Hello';
+import Vyas from './vyas';
 
 class App extends Component {
   constructor() {
@@ -17,7 +17,7 @@ class App extends Component {
         <p>
           Start editing to see some magic happen :)
         </p>
-        <Hello message="vyas" age="20" />
+        <Vyas/>
       </div>
     );
   }
